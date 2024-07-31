@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
-class Unit(ABC):
 
+
+class Unit(ABC):
     @abstractmethod
     def move(self):
         pass
